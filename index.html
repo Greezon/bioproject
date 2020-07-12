@@ -1,56 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
-</head>
-<body>
-<header class="container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark text-light" id="navbar">
+  </head>
+  <body>
 
-    <h1 class="text-light col-xs-4 mr-auto">Ian N. Astesana</h1>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse col-xs-5" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
-
-        <li class="nav-item active" >
-          <a class="nav-link" id="hhp0" href="./index.html">About<span class="sr-only">(current)</span></a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" id="hhp1" href="./portfolio.html">Portfolio</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" id="hhp2" href="./contact.html">Contacts</a>
-        </li>
-
-      </ul>
-    </div>
-  </nav>
-</header>
-
-<div class="container-fluid p-5">
-      <div class="row ">
-        <div class="col-2 "></div>
-        <div class="col-6 text-sm-l" style="background-color: grey">
-          <h1 class="text-light border-bottom" style="margin: 10px;">About Me</h1>
-
-          <p class="text-light" style="margin: 10px;font-size: 1.5rem;"><img class="img-fluid float-left" src="./assets/images/snowboarding.jpeg" alt="" style="margin: 10px;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid est doloribus quam, aspernatur qui aut rerum suscipit dolores a reiciendis fuga tempora porro itaque illum magnam perferendis esse excepturi soluta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim veritatis vitae veniam voluptatum excepturi, optio cupiditate laboriosam id perferendis qui aliquam ex unde necessitatibus. Vel fugit non hic recusandae.
-          </p>
-          <p class="text-light" style="margin: 10px;font-size: 1.5rem;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ipsum accusantium aperiam dolores deserunt quam enim. Vitae exercitationem quis eius? Fugit error quos dolore exercitationem quo quidem sequi aliquid tenetur!</p>
+  <!-- Header Start -->
+      <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <a class="navbar-brand text-light" href="./index.html"><h1>Ian N. Astesana</h1></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-light"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" id="hhp0" href="./index.html">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="hhp1" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="hhp2" href="./contact.html">Contact</a>
+            </li> 
+            </li>
+          </ul>
         </div>
+      </header>
+      </nav>
+    </header>
+  <!-- Header Start -->
+
+  <!-- Article Start -->
+    <article class="container-fluid p-5">
+          <div class="row col-xs-4  col-md-8 col-xl-5 m-auto">
+            <div class="col-xs-6 text-sm-l" style="background-color: grey">
+              <h1 class="text-light border-bottom" style="margin: 10px;">About Me</h1>
+              <p class="text-light" style="margin: 10px;font-size: 1.2rem;"><img class="img-fluid float-left" src="./assets/images/snowboarding.png" alt="" style="margin: 10px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid est doloribus quam, aspernatur qui aut rerum suscipit dolores a reiciendis fuga tempora porro itaque illum magnam perferendis esse excepturi soluta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim veritatis vitae veniam voluptatum excepturi, optio cupiditate laboriosam id perferendis qui aliquam ex unde necessitatibus. Vel fugit non hic recusandae.
+              </p>
+              <p class="text-light" style="margin: 10px;font-size: 1.2rem;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ipsum accusantium aperiam dolores deserunt quam enim. Vitae exercitationem quis eius? Fugit error quos dolore exercitationem quo quidem sequi aliquid tenetur!</p>
+            </div>
+          </div>
+    </article>
+  <!-- End Article -->
+
+  <!-- Footer Start -->
+  <div class="containter">
+    <footer class="footer bg-dark text-light" id="sf">
+      <div class="container p-2" style="margin-top: auto;">
+        
+        <!-- Facebook button -->
+          <a href="https://www.facebook.com/ian.astesana">
+            <button type="button" class="btn btn-sm btn-fb waves-effect waves-light ml-auto" id="fb1" style="position: absolute; background-color: white;">
+              <i class="fab fa-facebook-f pr-1"></i>
+              Facebook
+            </button>
+          </a>
+        <!-- Facebook button end -->
+
+        <!-- Copyright start -->
+        <div class="float-right">
+          <h4>&copy; Copyright 2020</h4>
+        </div>
+        <!-- Copyright end -->
+        
       </div>
-</div>
-    
+    </footer>
+  </div>
+  <!-- Footer End -->
+ 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
