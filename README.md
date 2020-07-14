@@ -26,7 +26,7 @@ When looking at webpages now, I find that I can build them, change them, and mos
 
 https://greezon.github.io/bioproject/index.html
 
-/var/folders/yy/qjwtwh4966l601tyvxsmnzfh0000gn/T/com.monosnap.monosnap/Ian A. | About me 2020-07-13 20-56-06.png
+![Alt text](./assets/images/readme.png "Homepage")
 
 
 
